@@ -32,13 +32,13 @@
 }
 
 
-.social-button  svg {
+.social-button  img {
     position: absolute; 
-  left: 2rem;   
-  top: 50%;
-  transform: translateY(-50%);
-  width: 2rem;
-  height: 2rem;
+    left: 2rem;   
+    top: 50%;
+    transform: translateY(-50%);
+    width: 2rem;
+    height: 2rem;
 }
 
 .social-button:hover {

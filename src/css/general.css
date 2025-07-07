@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Quicksand';
+    src: url('../fonts/Quicksand-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('../fonts/Nunito-Regular.ttf') format('truetype');
+}
+
+#root {
+    background-color: #feb8cb;
+    max-width: 100%;
+    width: 100vw;
+    height: calc(100vh - 4rem);
+    margin: 0 auto;
+    padding: 2rem 0;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: 'Quicksand', sans-serif;
+}

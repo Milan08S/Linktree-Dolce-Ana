@@ -1,0 +1,58 @@
+#social-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+    margin-top: 2rem;
+    width: 100%;          
+    padding: 0 1rem;  
+    box-sizing: border-box;
+}
+
+
+.social-button {
+    width: 100%; 
+    max-width: 35rem;
+    height: 4rem;
+
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    padding: 0rem 1rem;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+
+    border: 1px solid transparent;
+}
+
+
+.social-button  svg {
+    position: absolute; 
+  left: 2rem;   
+  top: 50%;
+  transform: translateY(-50%);
+  width: 2rem;
+  height: 2rem;
+}
+
+.social-button:hover {
+    background-color: #feb8cb;
+    color: #fff;
+    border: 1px solid #f0f0f0;
+}
+
+.img-button {
+    height: 14rem;
+}
+
+.img-button img {
+    max-width: 20%;
+    height: auto;
+    
+}
